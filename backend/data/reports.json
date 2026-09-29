@@ -1,0 +1,181 @@
+[
+  {
+    "_id": "04a6ad94cb521e88a3303d43",
+    "id": "04a6ad94cb521e88a3303d43",
+    "reportId": "EP-1001",
+    "category": "Overflowing Bin",
+    "description": "Central fruit & vegetable market public bin overflowing onto pedestrian path. Rapid spill accumulating.",
+    "location": "Main Market Road",
+    "priority": "High",
+    "status": "Pending",
+    "reportedBy": "Citizen Demo",
+    "priorityScore": 65,
+    "priorityFactors": [
+      "Public Receptacle Spill: Sidewalk Obstruction & Health Hazard (+30 pts)",
+      "High Foot-Traffic Commercial Zone: Dense Pedestrian Impact (+20 pts)",
+      "Urgency Keyword: Bio-Sanitation / Active Overflow (+15 pts)"
+    ],
+    "assignedTeam": "Subterranean Pod Unit 3 (High-Capacity)",
+    "estimatedKg": 65,
+    "diversionPotential": 80,
+    "resolvedAt": null,
+    "createdAt": "2026-09-29T05:14:16.291Z",
+    "updatedAt": "2026-09-29T05:59:18.327Z"
+  },
+  {
+    "_id": "503baf80d0fe16135b3bdf58",
+    "id": "503baf80d0fe16135b3bdf58",
+    "reportId": "EP-1002",
+    "category": "Waterway / Nature Pollution",
+    "description": "Plastic packaging and chemical detergent bottles floating near duck pond wetland inlet in protected sanctuary.",
+    "location": "Central Park Lake Zone",
+    "priority": "Critical",
+    "status": "Assigned",
+    "reportedBy": "EcoRanger Maya",
+    "priorityScore": 80,
+    "priorityFactors": [
+      "Ecological Sensitivity: Direct River/Park Biosphere Threat (+35 pts)",
+      "Protected Nature Zone: Green Space Bio-Integrity (+20 pts)",
+      "Critical Keyword Detection: Chemical/Combustion/Biohazard Threat (+25 pts)"
+    ],
+    "assignedTeam": "Eco-Hazard Neutralization Unit Alpha",
+    "estimatedKg": 90,
+    "diversionPotential": 65,
+    "resolvedAt": null,
+    "createdAt": "2026-09-29T04:09:16.291Z",
+    "updatedAt": "2026-09-29T05:59:18.334Z"
+  },
+  {
+    "_id": "ccddb7f357e3fefd22c9fce6",
+    "id": "ccddb7f357e3fefd22c9fce6",
+    "reportId": "EP-1003",
+    "category": "Plastic & Dry Recyclable",
+    "description": "Large pile of discarded coffee cups, PET beverage bottles, and clean packaging cardboard near east escalators.",
+    "location": "Metro Station East Entrance",
+    "priority": "Medium",
+    "status": "In Progress",
+    "reportedBy": "Transit Guard Marcus",
+    "priorityScore": 43,
+    "priorityFactors": [
+      "Standard Dry Recyclable / Packaging Accumulation (+15 pts)",
+      "Mass Transit Hub: High Commuter Flow Area (+18 pts)",
+      "Volume Keyword: High Volume Accumulation (+10 pts)"
+    ],
+    "assignedTeam": "Electric Fleet Team Green",
+    "estimatedKg": 40,
+    "diversionPotential": 90,
+    "resolvedAt": null,
+    "createdAt": "2026-09-29T02:59:16.291Z",
+    "updatedAt": "2026-09-29T05:59:18.341Z"
+  },
+  {
+    "_id": "e69a5f5f0064c1a6f75816e6",
+    "id": "e69a5f5f0064c1a6f75816e6",
+    "reportId": "EP-1004",
+    "category": "Organic / Food Waste",
+    "description": "Commercial restaurant food scrap containers leaked onto pavement near storm drainage grate with strong odor.",
+    "location": "Boulevard Sector 4",
+    "priority": "Medium",
+    "status": "In Progress",
+    "reportedBy": "Citizen Demo",
+    "priorityScore": 35,
+    "priorityFactors": [
+      "Rapid Degradation Risk: Vector & Odor Propagation (+25 pts)",
+      "Standard Municipal District (+10 pts)"
+    ],
+    "assignedTeam": "Subterranean Pod Unit 3 (High-Capacity)",
+    "estimatedKg": 55,
+    "diversionPotential": 75,
+    "resolvedAt": null,
+    "createdAt": "2026-09-29T01:59:16.291Z",
+    "updatedAt": "2026-09-29T05:59:18.346Z"
+  },
+  {
+    "_id": "e1d9d74977af044347f8226f",
+    "id": "e1d9d74977af044347f8226f",
+    "reportId": "EP-1005",
+    "category": "Hazardous / E-Waste",
+    "description": "Damaged lithium-ion battery scooter packs and cracked circuit boards dumped in municipal flowerbed.",
+    "location": "Civic Tech Hub Plaza",
+    "priority": "High",
+    "status": "Assigned",
+    "reportedBy": "Tech Campus Security",
+    "priorityScore": 50,
+    "priorityFactors": [
+      "Severe Category Hazard: Toxic/E-Waste Contamination Risk (+40 pts)",
+      "Standard Municipal District (+10 pts)"
+    ],
+    "assignedTeam": "Eco-Hazard Neutralization Unit Alpha",
+    "estimatedKg": 30,
+    "diversionPotential": 35,
+    "resolvedAt": null,
+    "createdAt": "2026-09-29T04:34:16.291Z",
+    "updatedAt": "2026-09-29T05:59:18.352Z"
+  },
+  {
+    "_id": "6a14ba28259aea8e1eeab453",
+    "id": "6a14ba28259aea8e1eeab453",
+    "reportId": "EP-1006",
+    "category": "Plastic & Dry Recyclable",
+    "description": "Riverside picnic litter collected and sorted into clean recyclable stream. Reclaimed for biophilic recycling.",
+    "location": "Riverfront Green Corridor",
+    "priority": "Medium",
+    "status": "Resolved",
+    "reportedBy": "Riverkeeper Volunteer",
+    "priorityScore": 35,
+    "priorityFactors": [
+      "Standard Dry Recyclable / Packaging Accumulation (+15 pts)",
+      "Protected Nature Zone: Green Space Bio-Integrity (+20 pts)"
+    ],
+    "assignedTeam": "Autonomous Sidewalk Collector 04",
+    "estimatedKg": 45,
+    "diversionPotential": 92,
+    "resolvedAt": "2026-09-29T03:59:16.291Z",
+    "createdAt": "2026-09-28T19:59:16.291Z",
+    "updatedAt": "2026-09-29T05:59:18.359Z"
+  },
+  {
+    "_id": "e08f784c9b800854484c36bd",
+    "id": "e08f784c9b800854484c36bd",
+    "reportId": "EP-1007",
+    "category": "Construction & Debris",
+    "description": "Drywall offcuts and crushed plaster blocks from curb maintenance successfully cleared and processed for aggregate.",
+    "location": "Industrial Zone North Gate",
+    "priority": "Medium",
+    "status": "Resolved",
+    "reportedBy": "Civil Works Team",
+    "priorityScore": 30,
+    "priorityFactors": [
+      "Structural Obstruction: Heavy Material Debris (+20 pts)",
+      "Standard Municipal District (+10 pts)"
+    ],
+    "assignedTeam": "Heavy Electric Compactor Alpha",
+    "estimatedKg": 120,
+    "diversionPotential": 70,
+    "resolvedAt": "2026-09-29T00:59:16.291Z",
+    "createdAt": "2026-09-28T14:59:16.291Z",
+    "updatedAt": "2026-09-29T05:59:18.366Z"
+  },
+  {
+    "_id": "225e2e6e53b1ac542deac8cc",
+    "id": "225e2e6e53b1ac542deac8cc",
+    "reportId": "EP-6663",
+    "category": "Overflowing Bin",
+    "description": "hiyutfrdsewarstdfguyhoplokijhygutfrdfghjk",
+    "location": "patna ",
+    "priority": "Medium",
+    "status": "Pending",
+    "reportedBy": "Alex Rivera",
+    "priorityScore": 40,
+    "priorityFactors": [
+      "Public Receptacle Spill: Sidewalk Obstruction & Health Hazard (+30 pts)",
+      "Standard Municipal District (+10 pts)"
+    ],
+    "assignedTeam": "Electric Fleet Team Green",
+    "estimatedKg": 40,
+    "diversionPotential": 85,
+    "resolvedAt": null,
+    "createdAt": "2026-09-29T06:01:47.293Z",
+    "updatedAt": "2026-09-29T06:01:47.293Z"
+  }
+]

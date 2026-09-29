@@ -1,0 +1,23 @@
+{
+  "name": "cloudetech-ecopulse",
+  "version": "1.0.0",
+  "description": "Building the Intelligent Cloud-Native City + EcoPulse AI Smart Waste & Nature Protection OS",
+  "main": "index.html",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "server": "cd backend && npm start",
+    "seed": "cd backend && npm run seed",
+    "dev:backend": "cd backend && npm run dev",
+    "dev": "cd backend && npm start"
+  },
+  "keywords": [
+    "smart-city",
+    "ecopulse",
+    "cloud-native",
+    "waste-management",
+    "nature-protection",
+    "mongodb"
+  ],
+  "author": "Cloudetech EcoPulse Team",
+  "license": "MIT"
+}

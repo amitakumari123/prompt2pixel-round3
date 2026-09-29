@@ -1,0 +1,2158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building the Intelligent Cloud-Native City | Competition Showcase</title>
+  <meta name="description" content="A futuristic smart city where cloud-native architecture, serverless scalability, generative AI, underground logistics, and sustainable infrastructure unite.">
+  <link rel="icon" type="image/png" href="logo2.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Background Ambient Glow & Tech Grid -->
+  <div class="tech-grid-bg" aria-hidden="true"></div>
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- 1. Navbar -->
+  <header class="navbar-wrapper">
+    <nav class="navbar container" id="navbar" aria-label="Main Navigation">
+      <a href="#home" class="nav-brand" aria-label="Cloud-Native City Homepage">
+        <div class="brand-logo-glow">
+          <img src="logo2.png" alt="Smart City Project Logo" class="brand-logo" width="46" height="46" onerror="this.onerror=null;this.src='cloudetech_round2/logo2.png';">
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">CLOUD CITY</span>
+          <span class="brand-badge">INTELLIGENT OS</span>
+        </div>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#concepts" class="nav-link">Concepts</a>
+        <a href="#underground" class="nav-link">Underground</a>
+        <a href="#vision" class="nav-link">Vision</a>
+        <a href="#ecopulse" class="nav-link eco-nav-link">
+          <span class="pulse-node green"></span>
+          <span>EcoPulse</span>
+        </a>
+        <a href="#join" class="nav-link">Join</a>
+        <a href="#ecopulse" class="btn btn-sm btn-success nav-cta">EcoPulse OS</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="#ecopulse" class="btn-ecopulse-nav d-none d-lg-flex" title="Launch EcoPulse Platform">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2a9 9 0 0 0-9 9c0 4.97 4.03 9 9 9s9-4.03 9-9A9 9 0 0 0 12 2z"/><path d="M12 6v10M8 10l4-4 4 4"/></svg>
+          EcoPulse OS
+        </a>
+        <button id="viewPosterQuick" class="btn btn-sm btn-glass d-none d-md-flex" title="View Full High-Res Poster">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          Poster
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 2. Home / Hero -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="status-dot"></span>
+            <span>NEXT-GEN CLOUD-NATIVE SMART METROPOLIS</span>
+          </div>
+
+          <h1 class="hero-heading">
+            Building the <span class="gradient-text">Intelligent</span> Cloud-Native City
+          </h1>
+
+          <p class="hero-description">
+            A future-ready urban paradigm uniting cloud-native computing, autonomous generative AI, serverless scalability, and automated CI/CD pipelines with regenerative underground infrastructure and green sustainability.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#concepts" class="btn btn-primary btn-lg">
+              <span>Explore Concepts</span>
+              <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#ecopulse" class="btn btn-hero-ecopulse btn-lg">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a9 9 0 0 0-9 9c0 4.97 4.03 9 9 9s9-4.03 9-9A9 9 0 0 0 12 2z"/><path d="M12 6v10M8 10l4-4 4 4"/></svg>
+              <span>Launch EcoPulse OS</span>
+            </a>
+            <a href="#vision" class="btn btn-outline btn-lg">
+              <span>Our Vision</span>
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </a>
+          </div>
+
+          <!-- Quick Metrics Bar -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-value">99.999%</span>
+              <span class="stat-label">Cloud Resilience</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-value">Zero</span>
+              <span class="stat-label">Surface Freight</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-value">100%</span>
+              <span class="stat-label">Circular Ecology</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="poster-card-wrapper" id="posterCard">
+            <div class="poster-card-halo"></div>
+            <div class="poster-card">
+              <div class="poster-card-header">
+                <div class="poster-tag">
+                  <span class="pulse-node"></span>
+                  <span>OFFICIAL COMPETITION BLUEPRINT</span>
+                </div>
+                <button class="btn-zoom-preview" id="expandPosterBtn" title="Click to view full screen">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                  <span>Zoom Poster</span>
+                </button>
+              </div>
+
+              <div class="poster-image-container">
+                <img src="cloudeposter.png" alt="Building the Intelligent Cloud-Native City Official Competition Poster" class="hero-poster-img" id="heroPosterImage" loading="eager" onerror="this.onerror=null;this.src='cloudetech_round2/cloudeposter.png';">
+                <div class="poster-overlay">
+                  <span class="poster-hint">Click to inspect high-resolution poster</span>
+                </div>
+              </div>
+
+              <div class="poster-card-footer">
+                <div class="poster-feature">
+                  <svg class="mini-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+                  <span>Cloud Architecture</span>
+                </div>
+                <div class="poster-feature">
+                  <svg class="mini-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                  <span>Smart Underground</span>
+                </div>
+                <div class="poster-feature">
+                  <svg class="mini-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 0 0-7 17.07V22l4-2a10 10 0 1 0 3-18Z"/></svg>
+                  <span>Generative AI</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-subtitle">ABOUT THE PROJECT</span>
+          <h2 class="section-title">How Cloud, AI, Automation & Sustainability Work Together</h2>
+          <p class="section-lead">
+            In our vision, four powerful pillars unite to create a living, self-healing, and deeply connected smart metropolis that serves both people and the planet.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative-card">
+            <div class="narrative-tag">A UNIFIED LIVING CITY</div>
+            <h3 class="narrative-title">Technology & Nature in Complete Harmony</h3>
+            <p class="narrative-text">
+              Traditional cities struggle with traffic jams, power outages, and carbon emissions because their systems operate in isolation. Our project re-imagines urban life by connecting four core forces into a single living operating system:
+            </p>
+            <p class="narrative-text">
+              <strong>Cloud technology</strong> gathers real-time data from every corner of the city. <strong>Artificial intelligence</strong> analyzes that data to predict traffic rushes, solar generation, and water demand. <strong>Automation</strong> acts instantly on those predictions—adjusting signals, rerouting underground pods, and balancing power grids. Meanwhile, <strong>sustainable infrastructure</strong> ensures every watt is green, every drop of water is recycled, and the surface stays quiet and park-filled.
+            </p>
+            
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon blue">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/><circle cx="12" cy="13" r="1.5"/></svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Cloud Technology</h4>
+                  <p class="highlight-desc">The digital backbone syncing buildings, utilities, and citizen services with 99.999% resilience.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon blue">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Artificial Intelligence</h4>
+                  <p class="highlight-desc">Predictive machine intelligence forecasting mobility surges, power loads, and weather patterns.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon nude">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Intelligent Automation</h4>
+                  <p class="highlight-desc">Serverless CI/CD triggers operating underground transit pods, water valves, and logistic elevators in milliseconds.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon green">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a9 9 0 0 0-9 9c0 4.97 4.03 9 9 9s9-4.03 9-9A9 9 0 0 0 12 2z"/><path d="M12 6v10M8 10l4-4 4 4"/></svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Sustainable Infrastructure</h4>
+                  <p class="highlight-desc">Solar building envelopes, 100% circular water bio-filtration, and noise-free surface green spaces.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-interactive-flow">
+            <div class="flow-card">
+              <div class="flow-step">
+                <div class="step-num">01</div>
+                <div class="step-body">
+                  <h4>Cloud Brain & Telemetry</h4>
+                  <p>IoT sensors throughout buildings, roads, and sub-levels stream continuous telemetry into cloud-native event brokers.</p>
+                </div>
+              </div>
+              <div class="flow-arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+              </div>
+
+              <div class="flow-step">
+                <div class="step-num">02</div>
+                <div class="step-body">
+                  <h4>Generative AI Decisioning</h4>
+                  <p>Cloud AI analyzes weather patterns, mobility traffic, and solar storage to generate micro-adjustments in real-time.</p>
+                </div>
+              </div>
+              <div class="flow-arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+              </div>
+
+              <div class="flow-step">
+                <div class="step-num">03</div>
+                <div class="step-body">
+                  <h4>Automated CI/CD Actuation</h4>
+                  <p>Serverless pipelines trigger automated robotic valves, metro routing schedules, and subterranean storage elevators.</p>
+                </div>
+              </div>
+              <div class="flow-arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+              </div>
+
+              <div class="flow-step">
+                <div class="step-num">04</div>
+                <div class="step-body">
+                  <h4>Sustainable Closed Loop</h4>
+                  <p>Rainwater is filtered, solar arrays feed storage batteries, and urban living thrives in quiet harmony with nature.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. Five Core Concepts -->
+    <section class="section concepts-section" id="concepts">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-subtitle">FOUNDATIONAL PILLARS</span>
+          <h2 class="section-title">Five Core Concepts</h2>
+          <p class="section-lead">
+            The architectural building blocks driving the intelligent city's software and physical infrastructure.
+          </p>
+        </div>
+
+        <div class="concepts-grid">
+          
+          <!-- Card 1: Cloud-Native Architecture -->
+          <div class="concept-card" data-concept="cloud-native">
+            <div class="card-glow"></div>
+            <div class="concept-icon-wrap blue-glow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="concept-icon">
+                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                <circle cx="12" cy="13" r="1.5"/>
+                <path d="M12 14.5v3"/>
+                <circle cx="9" cy="18" r="1"/>
+                <circle cx="15" cy="18" r="1"/>
+              </svg>
+            </div>
+            <div class="concept-tagline">Build. Deploy. Scale.</div>
+            <h3 class="concept-title">Cloud-Native Architecture</h3>
+            <p class="concept-desc">
+              Containerized microservices running resiliently across hybrid distributed clouds to power municipal utilities with self-healing uptime and zero single point of failure.
+            </p>
+            <div class="concept-pills">
+              <span class="pill">Microservices</span>
+              <span class="pill">Self-Healing</span>
+              <span class="pill">Multi-Cloud</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Serverless Scalability -->
+          <div class="concept-card" data-concept="serverless">
+            <div class="card-glow"></div>
+            <div class="concept-icon-wrap green-glow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="concept-icon">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                <path d="M2 19h4M18 5h4M16 19h6"/>
+              </svg>
+            </div>
+            <div class="concept-tagline">Instant Elasticity. Zero Waste.</div>
+            <h3 class="concept-title">Serverless Scalability</h3>
+            <p class="concept-desc">
+              Compute and municipal resources that dynamically scale from zero to peak demand within milliseconds—eliminating idle energy waste and maximizing green efficiency.
+            </p>
+            <div class="concept-pills">
+              <span class="pill">Zero Idle Power</span>
+              <span class="pill">Auto-Scaling</span>
+              <span class="pill">Cost Optimized</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Generative Cloud AI -->
+          <div class="concept-card" data-concept="gen-ai">
+            <div class="card-glow"></div>
+            <div class="concept-icon-wrap blue-glow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="concept-icon">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M12 2v3M12 19v3M2 12h3M19 12h3"/>
+                <path d="m4.93 4.93 2.12 2.12M16.95 16.95l2.12 2.12M4.93 19.07l2.12-2.12M16.95 7.05l2.12-2.12"/>
+                <circle cx="12" cy="12" r="8" stroke-dasharray="2 4"/>
+              </svg>
+            </div>
+            <div class="concept-tagline">Smarter Solutions. Greater Possibilities.</div>
+            <h3 class="concept-title">Generative Cloud AI</h3>
+            <p class="concept-desc">
+              Predictive neural intelligence modeling weather, commuter surges, and renewable energy loads to orchestrate smart city decisions before bottlenecks ever form.
+            </p>
+            <div class="concept-pills">
+              <span class="pill">Predictive AI</span>
+              <span class="pill">Neural Grid</span>
+              <span class="pill">Edge Inference</span>
+            </div>
+          </div>
+
+          <!-- Card 4: DevOps & CI/CD Pipelines -->
+          <div class="concept-card" data-concept="devops">
+            <div class="card-glow"></div>
+            <div class="concept-icon-wrap nude-glow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="concept-icon">
+                <path d="M8 12c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4c0 1.2-.5 2.2-1.3 3"/>
+                <path d="M16 12c2.2 0 4 1.8 4 4s-1.8 4-4 4-4-1.8-4-4c0-1.2.5-2.2 1.3-3"/>
+                <path d="m9.5 13.5 5-5"/>
+                <circle cx="8" cy="8" r="1.5"/>
+                <circle cx="16" cy="16" r="1.5"/>
+              </svg>
+            </div>
+            <div class="concept-tagline">Automate. Integrate. Deliver Faster.</div>
+            <h3 class="concept-title">DevOps & CI/CD Pipelines</h3>
+            <p class="concept-desc">
+              Continuous deployment pipelines adapted for smart physical infrastructure—testing, verifying, and rolling out sensor firmware and traffic updates with zero interruption.
+            </p>
+            <div class="concept-pills">
+              <span class="pill">Continuous Delivery</span>
+              <span class="pill">Automated QA</span>
+              <span class="pill">Zero Downtime</span>
+            </div>
+          </div>
+
+          <!-- Card 5: Event-Driven Workflows -->
+          <div class="concept-card" data-concept="event-driven">
+            <div class="card-glow"></div>
+            <div class="concept-icon-wrap green-glow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="concept-icon">
+                <polygon points="12 2 19 6.5 19 15.5 12 20 5 15.5 5 6.5 12 2"/>
+                <circle cx="12" cy="11" r="2.5"/>
+                <path d="M12 2v6.5M12 13.5V20M5 6.5l4.5 2.5M14.5 13l4.5 2.5M19 6.5l-4.5 2.5M9.5 13 5 15.5"/>
+              </svg>
+            </div>
+            <div class="concept-tagline">Real-time Events. Smarter Actions.</div>
+            <h3 class="concept-title">Event-Driven Workflows</h3>
+            <p class="concept-desc">
+              Sub-second event triggers connecting IoT sensors, water telemetry, transit grids, and emergency alerts into responsive, autonomous city-wide actions.
+            </p>
+            <div class="concept-pills">
+              <span class="pill">Sub-Second Trigger</span>
+              <span class="pill">Decoupled Bus</span>
+              <span class="pill">Autonomous Sync</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. Smart Underground -->
+    <section class="section underground-section" id="underground">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-subtitle">SUBTERRANEAN ECOSYSTEM</span>
+          <h2 class="section-title">Smart Underground Infrastructure</h2>
+          <p class="section-lead">
+            Moving heavy transit, storage, and utility pipelines beneath the surface allows cities to reclaim daylight, clean air, and greenery above.
+          </p>
+        </div>
+
+        <!-- Connected Tech Schematic Visualization -->
+        <div class="underground-schematic">
+          
+          <div class="schematic-toolbar">
+            <span class="schematic-status">
+              <span class="pulse-node green"></span>
+              SUB-SURFACE TELEMETRY GRID ACTIVE
+            </span>
+            <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+              <span class="schematic-note">Click any module to inspect real-time subterranean data</span>
+              <a href="#ecopulse" class="btn btn-sm btn-ecopulse-nav" style="font-size: 0.78rem; padding: 4px 12px;">
+                <span>Live Pod & Waste Grid Console →</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Connected Node Circuit Grid -->
+          <div class="schematic-grid">
+
+            <!-- Node 1 -->
+            <div class="underground-card active" data-node="utilities" tabindex="0">
+              <div class="node-indicator">
+                <span class="node-number">01</span>
+                <span class="node-pulse"></span>
+              </div>
+              <div class="underground-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <circle cx="12" cy="12" r="3"/>
+                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                </svg>
+              </div>
+              <h3 class="underground-title">Intelligent Underground Utility Network</h3>
+              <p class="underground-text">
+                Multi-utility conduits carrying fiber optic lines, smart power cables, and pressurized water grids, monitored 24/7 by autonomous robotic diagnostic units.
+              </p>
+              <div class="node-stats">
+                <span class="stat-badge">Self-Inspecting</span>
+                <span class="stat-badge">Zero Disruption</span>
+              </div>
+            </div>
+
+            <!-- Interconnecting Tech Line 1-2 -->
+            <div class="circuit-connector horizontal" aria-hidden="true">
+              <span class="connector-line"></span>
+              <span class="signal-dot"></span>
+            </div>
+
+            <!-- Node 2 -->
+            <div class="underground-card" data-node="storage" tabindex="0">
+              <div class="node-indicator">
+                <span class="node-number">02</span>
+                <span class="node-pulse"></span>
+              </div>
+              <div class="underground-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                  <line x1="12" y1="22.08" x2="12" y2="12"/>
+                </svg>
+              </div>
+              <h3 class="underground-title">Automated Goods Storage</h3>
+              <p class="underground-text">
+                Robotic Automated Storage and Retrieval Systems (ASRS) managing urban cargo, e-commerce parcels, and emergency supplies beneath street level.
+              </p>
+              <div class="node-stats">
+                <span class="stat-badge">90% Less Surface Trucks</span>
+                <span class="stat-badge">Robotic AS/RS</span>
+              </div>
+            </div>
+
+            <!-- Interconnecting Tech Line 2-3 -->
+            <div class="circuit-connector vertical" aria-hidden="true">
+              <span class="connector-line"></span>
+              <span class="signal-dot"></span>
+            </div>
+
+            <!-- Node 3 -->
+            <div class="underground-card" data-node="transport" tabindex="0">
+              <div class="node-indicator">
+                <span class="node-number">03</span>
+                <span class="node-pulse"></span>
+              </div>
+              <div class="underground-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <rect x="4" y="3" width="16" height="16" rx="2"/>
+                  <path d="M4 11h16"/>
+                  <path d="M12 3v8"/>
+                  <path d="m8 19-2 3M16 19l2 3"/>
+                  <circle cx="8" cy="15" r="1"/>
+                  <circle cx="16" cy="15" r="1"/>
+                </svg>
+              </div>
+              <h3 class="underground-title">Underground Transport and Storage</h3>
+              <p class="underground-text">
+                High-speed electric subterranean transit corridors and automated logistics pods moving passengers and freight rapidly without surface noise or traffic.
+              </p>
+              <div class="node-stats">
+                <span class="stat-badge">Zero Surface Congestion</span>
+                <span class="stat-badge">High-Speed Pods</span>
+              </div>
+            </div>
+
+            <!-- Interconnecting Tech Line 3-4 -->
+            <div class="circuit-connector horizontal" aria-hidden="true">
+              <span class="connector-line"></span>
+              <span class="signal-dot"></span>
+            </div>
+
+            <!-- Node 4 -->
+            <div class="underground-card" data-node="water" tabindex="0">
+              <div class="node-indicator">
+                <span class="node-number">04</span>
+                <span class="node-pulse"></span>
+              </div>
+              <div class="underground-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+                  <path d="M12 12a3 3 0 0 0 3-3"/>
+                </svg>
+              </div>
+              <h3 class="underground-title">Rainwater Harvesting and Recycling</h3>
+              <p class="underground-text">
+                Bio-filtration aquifers and smart cistern networks capturing monsoon and storm runoff to purify and supply 100% circular water for city green spaces.
+              </p>
+              <div class="node-stats">
+                <span class="stat-badge">100% Circular Water</span>
+                <span class="stat-badge">Bio-Filtration</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Live Telemetry Inspector Drawer -->
+          <div class="telemetry-display" id="telemetryDisplay">
+            <div class="telemetry-header">
+              <div class="telemetry-title-group">
+                <span class="status-indicator"></span>
+                <h4 id="telemetryTitle">Intelligent Underground Utility Network</h4>
+              </div>
+              <span class="telemetry-badge" id="telemetryBadge">TELEMETRY: OPTIMAL</span>
+            </div>
+            <div class="telemetry-body" id="telemetryContent">
+              <div class="telemetry-metric">
+                <span class="metric-label">Pipeline Network Health</span>
+                <div class="meter-bar"><div class="meter-fill" style="width: 98.4%;"></div></div>
+                <span class="metric-val">98.4%</span>
+              </div>
+              <div class="telemetry-metric">
+                <span class="metric-label">Autonomous Drone Inspections</span>
+                <div class="meter-bar"><div class="meter-fill" style="width: 100%;"></div></div>
+                <span class="metric-val">Continuous</span>
+              </div>
+              <div class="telemetry-metric">
+                <span class="metric-label">Grid Reroute Latency</span>
+                <div class="meter-bar"><div class="meter-fill" style="width: 12%;"></div></div>
+                <span class="metric-val">1.2 ms</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. Vision Section -->
+    <section class="section vision-section" id="vision">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-subtitle">THE FUTURE HORIZON</span>
+          <h2 class="section-title">Our Vision for Tomorrow</h2>
+          <p class="section-lead">
+            A cohesive vision where urban architecture, nature, and computational ecosystems evolve in total synergy.
+          </p>
+        </div>
+
+        <div class="vision-grid">
+          
+          <!-- Vision 1: Smart Buildings -->
+          <div class="vision-card">
+            <div class="vision-header">
+              <div class="vision-icon blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M3 21h18M5 21V7l8-4v18M13 11l6-3v13"/>
+                  <line x1="9" y1="9" x2="9.01" y2="9"/>
+                  <line x1="9" y1="13" x2="9.01" y2="13"/>
+                  <line x1="9" y1="17" x2="9.01" y2="17"/>
+                </svg>
+              </div>
+              <span class="vision-index">01</span>
+            </div>
+            <h3 class="vision-title">Smart Buildings</h3>
+            <p class="vision-text">
+              Kinetic self-shading facades, AI-tuned microclimates, and responsive structural sensors that minimize energy consumption in real time.
+            </p>
+          </div>
+
+          <!-- Vision 2: Green Spaces -->
+          <div class="vision-card">
+            <div class="vision-header">
+              <div class="vision-icon green">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M12 2a9 9 0 0 0-9 9c0 4.97 4.03 9 9 9s9-4.03 9-9A9 9 0 0 0 12 2z"/>
+                  <path d="M12 6v10M8 10l4-4 4 4"/>
+                </svg>
+              </div>
+              <span class="vision-index">02</span>
+            </div>
+            <h3 class="vision-title">Green Spaces</h3>
+            <p class="vision-text">
+              Cascading sky gardens, native urban biophilic corridors, and green rooftop canopies that naturally purify air and cool the cityscape.
+            </p>
+          </div>
+
+          <!-- Vision 3: Solar Energy -->
+          <div class="vision-card">
+            <div class="vision-header">
+              <div class="vision-icon warm">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <circle cx="12" cy="12" r="4"/>
+                  <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+                </svg>
+              </div>
+              <span class="vision-index">03</span>
+            </div>
+            <h3 class="vision-title">Solar Energy</h3>
+            <p class="vision-text">
+              Photovoltaic architectural glass, solar building skins, and smart distributed microgrids harvesting clean sunlight for all municipal operations.
+            </p>
+          </div>
+
+          <!-- Vision 4: AI-Powered Systems -->
+          <div class="vision-card">
+            <div class="vision-header">
+              <div class="vision-icon blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <rect x="2" y="3" width="20" height="14" rx="2"/>
+                  <line x1="8" y1="21" x2="16" y2="21"/>
+                  <line x1="12" y1="17" x2="12" y2="21"/>
+                  <path d="m9 9 2 2 4-4"/>
+                </svg>
+              </div>
+              <span class="vision-index">04</span>
+            </div>
+            <h3 class="vision-title">AI-Powered Systems</h3>
+            <p class="vision-text">
+              Predictive neural networks continuously balancing grid loads, preventing utility anomalies, and coordinating autonomous emergency responses.
+            </p>
+          </div>
+
+          <!-- Vision 5: Smart Transportation -->
+          <div class="vision-card">
+            <div class="vision-header">
+              <div class="vision-icon green">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1 .4-1 1v7c0 .6.4 1 1 1h2"/>
+                  <circle cx="7" cy="17" r="2"/>
+                  <path d="M9 17h6"/>
+                  <circle cx="17" cy="17" r="2"/>
+                </svg>
+              </div>
+              <span class="vision-index">05</span>
+            </div>
+            <h3 class="vision-title">Smart Transportation</h3>
+            <p class="vision-text">
+              Zero-emission autonomous electric shuttles, elevated monorails, and subterranean transit loops keeping streets safe, clean, and pedestrian-first.
+            </p>
+          </div>
+
+          <!-- Vision 6: Sustainable Resource Management -->
+          <div class="vision-card">
+            <div class="vision-header">
+              <div class="vision-icon warm">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5"/>
+                  <path d="M11 19h8.2a1.8 1.8 0 0 0 1.6-1 1.8 1.8 0 0 0 0-1.8L16.5 9.5"/>
+                  <path d="M14.5 4.5 12 2l-2.5 2.5"/>
+                  <path d="M12 2v9"/>
+                </svg>
+              </div>
+              <span class="vision-index">06</span>
+            </div>
+            <h3 class="vision-title">Sustainable Resource Management</h3>
+            <p class="vision-text">
+              Closed-loop circular recovery, automated pneumatic organic sorting, and zero-waste urban metabolism repurposing 100% of urban resources.
+            </p>
+          </div>
+
+          <!-- Vision 7: Connected Infrastructure -->
+          <div class="vision-card featured-vision-card">
+            <div class="vision-header">
+              <div class="vision-icon blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/>
+                </svg>
+              </div>
+              <span class="vision-index">07</span>
+            </div>
+            <h3 class="vision-title">Connected Infrastructure</h3>
+            <p class="vision-text">
+              City-wide ultra-low latency mesh networks syncing every streetlight, water valve, transit hub, and building into a real-time digital twin replica.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    <!-- 7. EcoPulse: AI Smart City + Nature Protection + Smart Waste Management Platform -->
+    <section class="section ecopulse-section" id="ecopulse">
+      <div class="ecopulse-ambient-glow" aria-hidden="true"></div>
+      <div class="container" style="position: relative; z-index: 1;">
+        
+        <!-- Header -->
+        <div class="section-header text-center">
+          <div class="narrative-tag" style="display:inline-block; margin-bottom: 12px; background: rgba(16, 185, 129, 0.15); border: 1px solid var(--green-border); color: var(--green-soft);">
+            AI-ENABLED SMART CITY • NATURE PROTECTION • SMART WASTE OS
+          </div>
+          <h2 class="section-title">EcoPulse : Smart Waste & Ecological Grid</h2>
+          <p class="section-lead">
+            An intelligent, closed-loop civic operating system integrating automated underground transit pods, citizen reporting, and deterministic rule-based priority routing connected directly to live MongoDB telemetry.
+          </p>
+        </div>
+
+        <!-- 12. Live Connection & Telemetry Status Bar -->
+        <div class="ecopulse-conn-bar" id="ecopulseConnBar">
+          <div class="conn-status-group">
+            <span class="conn-pill" id="apiStatusPill">
+              <span class="pulse-node green" id="apiPulseDot"></span>
+              <span id="apiStatusText">MONGODB BACKEND: CONNECTED</span>
+            </span>
+            <span class="api-url-tag" id="apiUrlDisplay">API: http://localhost:5000</span>
+            <span class="api-url-tag" style="color: var(--green-soft);">Live Sync: 100% DB Driven</span>
+          </div>
+
+          <div class="conn-actions">
+            <button class="btn-refresh-telemetry" id="refreshDataBtn" title="Fetch latest reports & stats from MongoDB">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px;"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg>
+              <span>Refresh MongoDB</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 12. Live Statistics Ticker (Connected to MongoDB /api/stats) -->
+        <div class="ecopulse-metrics-grid">
+          
+          <div class="eco-metric-card">
+            <div class="metric-top">
+              <span class="metric-title">Active Incidents</span>
+              <div class="metric-icon-wrap blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 20px; height: 20px;"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+              </div>
+            </div>
+            <div class="metric-val-large" id="statActiveIncidents">--</div>
+            <div class="metric-sub" id="statActiveSub">Pending & In-Progress Waste in Queue</div>
+          </div>
+
+          <div class="eco-metric-card">
+            <div class="metric-top">
+              <span class="metric-title">Landfill Diverted</span>
+              <div class="metric-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 20px; height: 20px;"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+              </div>
+            </div>
+            <div class="metric-val-large" id="statCleanedKg">-- kg</div>
+            <div class="metric-sub" id="statCleanedSub">Circular Recovered Material Cleaned</div>
+          </div>
+
+          <div class="eco-metric-card">
+            <div class="metric-top">
+              <span class="metric-title">Nature Health Index</span>
+              <div class="metric-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 20px; height: 20px;"><path d="M12 2a9 9 0 0 0-9 9c0 4.97 4.03 9 9 9s9-4.03 9-9A9 9 0 0 0 12 2z"/><path d="M12 6v10M8 10l4-4 4 4"/></svg>
+              </div>
+            </div>
+            <div class="metric-val-large" id="statNatureHealth">--%</div>
+            <div class="metric-sub" id="statNatureSub">Bio-Corridor Purity & Water Protection</div>
+          </div>
+
+          <div class="eco-metric-card">
+            <div class="metric-top">
+              <span class="metric-title">Carbon Offset (CO2)</span>
+              <div class="metric-icon-wrap nude">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 20px; height: 20px;"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+              </div>
+            </div>
+            <div class="metric-val-large" id="statCo2Avoided">-- kg</div>
+            <div class="metric-sub" id="statCo2Sub">Avoided Emissions via Zero-Landfill Route</div>
+          </div>
+
+        </div>
+
+        <!-- 8. Smart Alerts Banner (Connected to MongoDB /api/alerts) -->
+        <div class="ecopulse-alerts-ribbon" id="ecopulseAlertsContainer">
+          <div class="eco-alert-card info">
+            <span class="alert-badge">Telemetry Active</span>
+            <div>
+              <div class="alert-title-row">
+                <h4 class="alert-title">EcoPulse Municipal Sensor Array Synchronizing</h4>
+              </div>
+              <p class="alert-desc">Retrieving real-time waste hazard levels and hotspot clusters from MongoDB...</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Workspace Tabs (Demo Roles Switcher) -->
+        <div class="ecopulse-tabs-nav" role="tablist">
+          <button class="eco-tab-btn active" data-eco-tab="citizen" role="tab" aria-selected="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <span>Citizen Portal</span>
+          </button>
+          
+          <button class="eco-tab-btn" data-eco-tab="team" role="tab" aria-selected="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <span>Municipal Team Dashboard</span>
+            <span class="tab-count" id="teamTabBadge">0</span>
+          </button>
+
+          <button class="eco-tab-btn" data-eco-tab="engine" role="tab" aria-selected="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            <span>Priority Engine & Queue</span>
+          </button>
+
+          <button class="eco-tab-btn" data-eco-tab="nature" role="tab" aria-selected="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;"><path d="M12 2a9 9 0 0 0-9 9c0 4.97 4.03 9 9 9s9-4.03 9-9A9 9 0 0 0 12 2z"/><path d="M12 6v10M8 10l4-4 4 4"/></svg>
+            <span>Nature & Eco Intelligence</span>
+          </button>
+
+          <button class="eco-tab-btn" data-eco-tab="underground" role="tab" aria-selected="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;"><rect x="4" y="3" width="16" height="16" rx="2"/><path d="M4 11h16M12 3v8m-4 8-2 3m10-3 2 3"/><circle cx="8" cy="15" r="1"/><circle cx="16" cy="15" r="1"/></svg>
+            <span>🚇 Underground Transit & Waste</span>
+          </button>
+
+          <button class="eco-tab-btn" data-eco-tab="connected" role="tab" aria-selected="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;"><polygon points="12 2 19 6.5 19 15.5 12 20 5 15.5 5 6.5 12 2"/><circle cx="12" cy="11" r="2.5"/><path d="M12 2v6.5M12 13.5V20M5 6.5l4.5 2.5M14.5 13l4.5 2.5M19 6.5l-4.5 2.5M9.5 13 5 15.5"/></svg>
+            <span>🌐 Connected Infrastructure</span>
+          </button>
+        </div>
+
+        <!-- ==================== TAB 1: CITIZEN PORTAL ==================== -->
+        <div class="ecopulse-tab-pane active" id="pane-citizen">
+          
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 24px; margin-bottom: 28px;">
+            
+            <!-- 1. Report Waste (Citizen View) -->
+            <div class="eco-card" id="reportWasteCard">
+              <div class="eco-card-header">
+                <div class="eco-card-title-group">
+                  <div class="highlight-icon green" style="width: 32px; height: 32px; font-size: 1rem;">1</div>
+                  <h3 class="eco-card-title">Report Waste</h3>
+                </div>
+                <span class="eco-card-badge green">CITIZEN DISPATCH</span>
+              </div>
+
+              <!-- Quick Demo 1-Click Preset Bar (Matches EXACT demo flow) -->
+              <div class="demo-preset-bar">
+                <div class="demo-preset-text">
+                  <strong>Quick Demo Flow:</strong> Overflowing Bin at Main Market Road
+                </div>
+                <button type="button" class="btn-demo-preset" id="quickFillDemoBtn" title="Auto-fill exact demo scenario">
+                  ✨ 1-Click Fill Demo
+                </button>
+              </div>
+
+              <form id="reportWasteForm">
+                <div class="eco-form-grid">
+                  
+                  <!-- Category -->
+                  <div>
+                    <label class="eco-form-label" for="wasteCategory">Waste Category *</label>
+                    <select class="eco-select" id="wasteCategory" required>
+                      <option value="" disabled selected>Select waste category</option>
+                      <option value="Overflowing Bin">Overflowing Bin</option>
+                      <option value="Plastic & Dry Recyclable">Plastic & Dry Recyclable</option>
+                      <option value="Organic / Food Waste">Organic / Food Waste</option>
+                      <option value="Hazardous / E-Waste">Hazardous / E-Waste</option>
+                      <option value="Construction & Debris">Construction & Debris</option>
+                      <option value="Waterway / Nature Pollution">Waterway / Nature Pollution</option>
+                    </select>
+                  </div>
+
+                  <!-- Location -->
+                  <div>
+                    <label class="eco-form-label" for="wasteLocation">Location / Landmark *</label>
+                    <input type="text" class="eco-input" id="wasteLocation" required placeholder="e.g. Main Market Road">
+                    <div class="preset-chips-row">
+                      <span class="preset-chip" data-loc="Main Market Road">Main Market Road</span>
+                      <span class="preset-chip" data-loc="Central Park Lake Zone">Central Park Lake</span>
+                      <span class="preset-chip" data-loc="Metro Station East">Metro Station East</span>
+                      <span class="preset-chip" data-loc="Boulevard Sector 4">Boulevard Sector 4</span>
+                    </div>
+                  </div>
+
+                  <!-- Description -->
+                  <div class="form-full-width">
+                    <label class="eco-form-label" for="wasteDescription">Waste Incident Description *</label>
+                    <textarea class="eco-textarea" id="wasteDescription" rows="3" required placeholder="Describe volume, obstruction, odor, or safety hazard..."></textarea>
+                  </div>
+
+                  <!-- Reported By & Urgency -->
+                  <div>
+                    <label class="eco-form-label" for="wasteReporter">Reported By</label>
+                    <input type="text" class="eco-input" id="wasteReporter" value="Alex Rivera" placeholder="Your name or Citizen ID">
+                  </div>
+
+                  <div style="display: flex; align-items: center; gap: 10px; margin-top: 24px;">
+                    <input type="checkbox" id="wasteUrgent" style="width: 18px; height: 18px; accent-color: var(--sustainability-green);">
+                    <label for="wasteUrgent" style="font-size: 0.85rem; color: var(--text-muted); cursor: pointer;">
+                      Mark as Immediate Public Safety Threat
+                    </label>
+                  </div>
+
+                </div>
+
+                <!-- 4. Smart Waste Priority Engine Live Preview -->
+                <div class="priority-preview-box" id="priorityPreviewBox">
+                  <div class="priority-preview-header">
+                    <div class="priority-preview-title">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                      <span>Priority Engine Live Preview:</span>
+                    </div>
+                    <span class="priority-score-badge high" id="livePriorityBadge">HIGH PRIORITY</span>
+                  </div>
+
+                  <div class="priority-meter-track">
+                    <div class="priority-meter-fill" id="livePriorityFill" style="width: 50%;"></div>
+                  </div>
+
+                  <div class="priority-factors-list" id="livePriorityFactors">
+                    <div class="priority-factor-item">Category Base: Overflowing Bin (+30 pts)</div>
+                    <div class="priority-factor-item">High Foot-Traffic Commercial Zone: Main Market Road (+20 pts)</div>
+                  </div>
+
+                  <div class="priority-transparency-note">
+                    Transparent Rule-Based Engine: Score calculated from category hazard weight + pedestrian zone multiplier without black-box ML claims.
+                  </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary btn-block btn-lg" id="submitWasteReportBtn">
+                  <span>Submit Waste Report to EcoPulse</span>
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+
+                <!-- Success Confirmation Banner (Shows EP-XXXX) -->
+                <div class="report-success-banner" id="reportSuccessBanner" style="display: none;">
+                  <div class="report-success-title">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 22px; height: 22px;"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Waste Report Registered in MongoDB!</span>
+                  </div>
+                  <p style="font-size: 0.9rem; margin-bottom: 8px;">
+                    Your report ID is <strong class="report-success-id" id="reportSuccessId">EP-XXXX</strong>.
+                  </p>
+                  <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px;">
+                    Assigned to automated subterranean collection queue. You can track its live status in My Reports.
+                  </p>
+                  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <button type="button" class="btn btn-sm btn-outline" id="viewInMyReportsBtn">
+                      View in My Reports →
+                    </button>
+                    <button type="button" class="btn btn-sm btn-glass" id="reportAnotherBtn">
+                      Submit Another Report
+                    </button>
+                  </div>
+                </div>
+
+              </form>
+            </div>
+
+            <!-- 2. My Reports View -->
+            <div class="eco-card" id="myReportsCard">
+              <div class="eco-card-header">
+                <div class="eco-card-title-group">
+                  <div class="highlight-icon blue" style="width: 32px; height: 32px; font-size: 1rem;">2</div>
+                  <h3 class="eco-card-title">My Reports</h3>
+                </div>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                  <button type="button" class="btn btn-sm btn-glass" id="refreshMyReportsBtn" title="Refresh reports list">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px;"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg>
+                  </button>
+                  <span class="eco-card-badge">LIVE TRACKING</span>
+                </div>
+              </div>
+
+              <div style="margin-bottom: 16px;">
+                <input type="text" class="eco-input" id="myReportsSearch" placeholder="Search by report ID (EP-XXXX) or location...">
+              </div>
+
+              <!-- List of citizen reports -->
+              <div class="reports-list-container" id="myReportsList">
+                <div style="text-align: center; padding: 40px 20px; color: var(--text-dim);">
+                  Loading your reports from MongoDB...
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Secondary Grid: 7. Smart Recycling Advisor & 9. Collection Info -->
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 24px;">
+            
+            <!-- 7. Smart Recycling Advisor -->
+            <div class="eco-card">
+              <div class="eco-card-header">
+                <div class="eco-card-title-group">
+                  <div class="highlight-icon green" style="width: 32px; height: 32px; font-size: 1rem;">7</div>
+                  <h3 class="eco-card-title">Smart Recycling Advisor</h3>
+                </div>
+                <span class="eco-card-badge green">CIRCULAR HELPER</span>
+              </div>
+
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 14px;">
+                Select any urban waste material to query segregation instructions, degradation half-life, and upcycling value:
+              </p>
+
+              <div class="preset-chips-row" style="margin-bottom: 16px;">
+                <span class="preset-chip recycling-chip active" data-item="pet-bottle">Plastic Bottle (PET)</span>
+                <span class="preset-chip recycling-chip" data-item="battery">Lithium Battery</span>
+                <span class="preset-chip recycling-chip" data-item="organic">Food Scraps</span>
+                <span class="preset-chip recycling-chip" data-item="cardboard">Cardboard Box</span>
+                <span class="preset-chip recycling-chip" data-item="ewaste">Electronic Circuit</span>
+                <span class="preset-chip recycling-chip" data-item="glass">Glass Container</span>
+              </div>
+
+              <div class="advisor-result-card" id="advisorResultCard">
+                <div class="advisor-result-header">
+                  <div>
+                    <h4 style="font-size: 1.1rem; color: #fff; margin-bottom: 2px;" id="advItemTitle">PET Plastic Beverage Container</h4>
+                    <span style="font-size: 0.8rem; color: var(--text-muted);">Standard Consumer Polymer</span>
+                  </div>
+                  <span class="advisor-bin-badge blue" id="advBinBadge">Blue Dry Recyclables</span>
+                </div>
+
+                <div class="advisor-grid">
+                  <div class="advisor-fact-box">
+                    <div class="advisor-fact-label">Degradation Duration</div>
+                    <div class="advisor-fact-value" id="advDegradation" style="color: #fbbf24;">450 Years in Landfill</div>
+                  </div>
+                  <div class="advisor-fact-box">
+                    <div class="advisor-fact-label">Circular Recovery Value</div>
+                    <div class="advisor-fact-value" id="advCircularVal" style="color: var(--green-soft);">High (3D Filament & Yarn)</div>
+                  </div>
+                </div>
+
+                <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 8px;" id="advEcoTip">
+                  <strong>City Eco Tip:</strong> Empty liquids and crush before discarding. Automated optical sorting in subterranean vacuum ducts will direct this to the regional polymer extrusion plant.
+                </p>
+                <div style="font-size: 0.8rem; color: var(--cyan-neon);">
+                  Nearest Smart Drop-Off Kiosk: <strong>Central Station Hub Kiosk #04 (120m away)</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- 9. Collection Information & Municipal Schedules -->
+            <div class="eco-card">
+              <div class="eco-card-header">
+                <div class="eco-card-title-group">
+                  <div class="highlight-icon nude" style="width: 32px; height: 32px; font-size: 1rem;">9</div>
+                  <h3 class="eco-card-title">Collection Information</h3>
+                </div>
+                <span class="eco-card-badge">ZONE SCHEDULES</span>
+              </div>
+
+              <div style="display: flex; flex-direction: column; gap: 12px;">
+                
+                <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 12px 16px;">
+                  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                    <strong style="color: var(--cyan-neon); font-size: 0.9rem;">Zone A: Commercial & Market Corridors</strong>
+                    <span class="status-pill assigned" style="font-size: 0.7rem;">High Frequency</span>
+                  </div>
+                  <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 4px;">
+                    Continuous Subterranean Vacuum Sweep (06:00 - 22:00) + High-Capacity Pods.
+                  </p>
+                  <span style="font-size: 0.75rem; color: var(--text-dim);">Next Scheduled Sub-surface Emptying: Today in 42 mins</span>
+                </div>
+
+                <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 12px 16px;">
+                  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                    <strong style="color: var(--green-soft); font-size: 0.9rem;">Zone B: Protected Nature & Lake Reserves</strong>
+                    <span class="status-pill resolved" style="font-size: 0.7rem;">Zero-Emission</span>
+                  </div>
+                  <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 4px;">
+                    Electric Drone Patrols & Bio-Corridor Ground Shuttles (Daily 06:30 & 16:30).
+                  </p>
+                  <span style="font-size: 0.75rem; color: var(--text-dim);">Special Focus: Stormwater Runoff Filtration Inspection</span>
+                </div>
+
+                <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 12px 16px;">
+                  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                    <strong style="color: var(--accent-nude); font-size: 0.9rem;">Zone C: Residential & Civic Centers</strong>
+                    <span class="status-pill pending" style="font-size: 0.7rem;">24/7 Automated</span>
+                  </div>
+                  <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 4px;">
+                    Curbside Pneumatic chutes connected to sub-surface collection conduits.
+                  </p>
+                  <span style="font-size: 0.75rem; color: var(--text-dim);">E-Waste & Hazardous drop-off: Civic Hub Saturdays 09:00 - 15:00</span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- ==================== TAB 2: MUNICIPAL TEAM DASHBOARD ==================== -->
+        <div class="ecopulse-tab-pane" id="pane-team">
+          
+          <div class="eco-card">
+            <div class="eco-card-header">
+              <div>
+                <div class="eco-card-title-group">
+                  <div class="highlight-icon blue" style="width: 32px; height: 32px; font-size: 1rem;">3</div>
+                  <h3 class="eco-card-title">Municipal Field Operations Dashboard</h3>
+                </div>
+                <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">
+                  Real-time municipal dispatch controller. Transition status directly in MongoDB: Pending → Assigned → In Progress → Resolved.
+                </p>
+              </div>
+              <button type="button" class="btn btn-sm btn-outline" id="refreshTeamReportsBtn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px;"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg>
+                Sync Database
+              </button>
+            </div>
+
+            <!-- Filter Controls -->
+            <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 20px; padding: 14px; background: rgba(0,0,0,0.25); border-radius: var(--radius-md);">
+              
+              <div style="display: flex; flex-wrap: wrap; gap: 8px;" id="teamStatusFilterGroup">
+                <button type="button" class="btn btn-sm btn-glass team-filter-btn active" data-filter-status="All">All Reports</button>
+                <button type="button" class="btn btn-sm btn-glass team-filter-btn" data-filter-status="Pending">Pending</button>
+                <button type="button" class="btn btn-sm btn-glass team-filter-btn" data-filter-status="Assigned">Assigned</button>
+                <button type="button" class="btn btn-sm btn-glass team-filter-btn" data-filter-status="In Progress">In Progress</button>
+                <button type="button" class="btn btn-sm btn-glass team-filter-btn" data-filter-status="Resolved">Resolved</button>
+              </div>
+
+              <div style="display: flex; gap: 10px; align-items: center; flex: 1; max-width: 320px;">
+                <input type="text" class="eco-input" id="teamSearchInput" placeholder="Filter by ID, location, category..." style="padding: 8px 12px; font-size: 0.85rem;">
+              </div>
+
+            </div>
+
+            <!-- Team Reports Feed -->
+            <div class="reports-list-container" id="teamReportsList">
+              <div style="text-align: center; padding: 40px; color: var(--text-dim);">
+                Fetching reports from MongoDB...
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- ==================== TAB 3: PRIORITY ENGINE & QUEUE ==================== -->
+        <div class="ecopulse-tab-pane" id="pane-engine">
+          
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 24px;">
+            
+            <!-- 4. Smart Waste Priority Engine Panel -->
+            <div class="eco-card">
+              <div class="eco-card-header">
+                <div class="eco-card-title-group">
+                  <div class="highlight-icon blue" style="width: 32px; height: 32px; font-size: 1rem;">4</div>
+                  <h3 class="eco-card-title">Priority Engine (Rule-Based Matrix)</h3>
+                </div>
+                <span class="eco-card-badge">TRANSPARENT ALGORITHM</span>
+              </div>
+
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px;">
+                Our priority engine calculates waste clearance urgency using deterministic mathematical rules. Zero machine learning hallucinations, zero external cloud AI dependencies.
+              </p>
+
+              <!-- Scoring Matrix Breakdown -->
+              <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px;">
+                
+                <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 10px 14px;">
+                  <strong style="color: var(--cyan-neon); font-size: 0.85rem;">1. Category Base Weight (15 - 40 pts)</strong>
+                  <div style="font-size: 0.78rem; color: var(--text-dim); margin-top: 3px;">
+                    Hazardous/E-Waste (+40) • Waterway Threat (+35) • Overflowing Bin (+30) • Organic (+25) • Debris (+20) • Recyclable (+15)
+                  </div>
+                </div>
+
+                <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 10px 14px;">
+                  <strong style="color: var(--green-soft); font-size: 0.85rem;">2. Location Pedestrian & Nature Multiplier (10 - 25 pts)</strong>
+                  <div style="font-size: 0.78rem; color: var(--text-dim); margin-top: 3px;">
+                    School / Hospital Perimeter (+25) • Main Market / Commercial (+20) • Protected Nature Buffer (+20) • Transit Hub (+18) • Standard (+10)
+                  </div>
+                </div>
+
+                <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 10px 14px;">
+                  <strong style="color: #fbbf24; font-size: 0.85rem;">3. Risk Keyword Scanning (+10 to +25 pts)</strong>
+                  <div style="font-size: 0.78rem; color: var(--text-dim); margin-top: 3px;">
+                    Chemical, fire, leak, acid (+25) • Stench, rodents, flies, spill (+15) • Urgent, massive, pile (+10)
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Interactive Engine Sandbox -->
+              <div style="background: rgba(3, 8, 20, 0.8); border: 1px solid var(--blue-border); border-radius: var(--radius-md); padding: 16px;">
+                <h4 style="font-size: 0.95rem; color: var(--cyan-neon); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  <span>Interactive Priority Simulator</span>
+                </h4>
+
+                <div class="eco-form-grid" style="margin-bottom: 12px;">
+                  <div>
+                    <label class="eco-form-label" style="font-size: 0.78rem;">Test Category</label>
+                    <select class="eco-select" id="simCategory" style="padding: 8px 12px; font-size: 0.85rem;">
+                      <option value="Overflowing Bin" selected>Overflowing Bin (+30)</option>
+                      <option value="Plastic & Dry Recyclable">Plastic & Dry Recyclable (+15)</option>
+                      <option value="Hazardous / E-Waste">Hazardous / E-Waste (+40)</option>
+                      <option value="Waterway / Nature Pollution">Waterway / Nature Pollution (+35)</option>
+                      <option value="Organic / Food Waste">Organic / Food Waste (+25)</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label class="eco-form-label" style="font-size: 0.78rem;">Test Location</label>
+                    <select class="eco-select" id="simLocation" style="padding: 8px 12px; font-size: 0.85rem;">
+                      <option value="Main Market Road" selected>Main Market Road (+20)</option>
+                      <option value="Hospital Perimeter">Hospital / Clinic Perimeter (+25)</option>
+                      <option value="Central Park Lake">Central Park Lake Sanctuary (+20)</option>
+                      <option value="Standard Street">Standard Residential District (+10)</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 10px;">
+                  <span style="font-size: 0.85rem; color: var(--text-muted);">Calculated Urgency:</span>
+                  <span class="status-pill" id="simResultBadge" style="background: rgba(245, 158, 11, 0.2); border: 1px solid #f59e0b; color: #fbbf24; font-size: 0.85rem;">
+                    HIGH PRIORITY (Score: 50/100)
+                  </span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- 5. Smart Collection Queue -->
+            <div class="eco-card">
+              <div class="eco-card-header">
+                <div class="eco-card-title-group">
+                  <div class="highlight-icon green" style="width: 32px; height: 32px; font-size: 1rem;">5</div>
+                  <h3 class="eco-card-title">Smart Collection Queue</h3>
+                </div>
+                <span class="eco-card-badge green">DYNAMIC ROUTING</span>
+              </div>
+
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px;">
+                Active collection queue sorted by priority weight (Critical → High → Medium → Low) with automated vehicle dispatch suggestions:
+              </p>
+
+              <!-- Queue List -->
+              <div class="reports-list-container" id="collectionQueueList">
+                <div style="text-align: center; padding: 40px; color: var(--text-dim);">
+                  Loading smart collection queue from MongoDB...
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- ==================== TAB 4: NATURE & ECO INTELLIGENCE ==================== -->
+        <div class="ecopulse-tab-pane" id="pane-nature">
+          
+          <!-- 6. Environmental Impact Dashboard -->
+          <div class="eco-card" style="margin-bottom: 24px;">
+            <div class="eco-card-header">
+              <div class="eco-card-title-group">
+                <div class="highlight-icon green" style="width: 32px; height: 32px; font-size: 1rem;">6</div>
+                <h3 class="eco-card-title">Environmental Impact Dashboard</h3>
+              </div>
+              <span class="eco-card-badge green">MONGODB DERIVED</span>
+            </div>
+
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">
+              Direct mathematical calculations based on resolved reports in MongoDB:
+            </p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+              
+              <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--green-border); border-radius: var(--radius-md); padding: 18px;">
+                <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Circular Recovery Rate</span>
+                <div style="font-size: 1.8rem; font-weight: 800; color: var(--green-soft); margin-top: 4px;" id="envRecoveryRate">--%</div>
+                <span style="font-size: 0.75rem; color: var(--text-dim);">Diverted vs Total Waste Reported</span>
+              </div>
+
+              <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--blue-border); border-radius: var(--radius-md); padding: 18px;">
+                <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Landfill Volume Conserved</span>
+                <div style="font-size: 1.8rem; font-weight: 800; color: var(--primary-blue); margin-top: 4px;" id="envLandfillM3">-- m³</div>
+                <span style="font-size: 0.75rem; color: var(--text-dim);">Preserved municipal subterranean space</span>
+              </div>
+
+              <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--nude-border); border-radius: var(--radius-md); padding: 18px;">
+                <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Clean Energy Equivalent</span>
+                <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent-nude); margin-top: 4px;" id="envEnergyKwh">-- kWh</div>
+                <span style="font-size: 0.75rem; color: var(--text-dim);">Organic & Biomass bio-methane conversion</span>
+              </div>
+
+              <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: var(--radius-md); padding: 18px;">
+                <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Average Response Time</span>
+                <div style="font-size: 1.8rem; font-weight: 800; color: #c084fc; margin-top: 4px;">28 mins</div>
+                <span style="font-size: 0.75rem; color: var(--text-dim);">Subterranean automated transit loop</span>
+              </div>
+
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 24px;">
+            
+            <!-- 10. Green Zone / Nature Protection View -->
+            <div class="eco-card">
+              <div class="eco-card-header">
+                <div class="eco-card-title-group">
+                  <div class="highlight-icon green" style="width: 32px; height: 32px; font-size: 1rem;">10</div>
+                  <h3 class="eco-card-title">Green Zone / Nature Protection</h3>
+                </div>
+                <span class="eco-card-badge green">BIOPHILE INTEGRITY</span>
+              </div>
+
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">
+                Active ecological sanctuaries continuously guarded against urban runoff and unauthorized illegal dumping:
+              </p>
+
+              <div class="nature-zones-grid">
+                
+                <div class="nature-zone-card">
+                  <div class="zone-header">
+                    <h4 class="zone-title">Central Park Wetland Sanctuary</h4>
+                    <span class="zone-health-pill">98% Purity</span>
+                  </div>
+                  <div class="zone-stat-row">
+                    <span>Bio-Filtration Aquifers</span>
+                    <strong style="color: var(--green-soft);">Operational</strong>
+                  </div>
+                  <div class="zone-stat-row">
+                    <span>Active Threats Neutralized</span>
+                    <strong>12 / 12</strong>
+                  </div>
+                  <div class="zone-stat-row">
+                    <span>Telemetry Status</span>
+                    <span style="color: var(--cyan-neon);">Drone Sensor Grid Active</span>
+                  </div>
+                </div>
+
+                <div class="nature-zone-card">
+                  <div class="zone-header">
+                    <h4 class="zone-title">Riverfront Biophilic Corridor</h4>
+                    <span class="zone-health-pill">94% Purity</span>
+                  </div>
+                  <div class="zone-stat-row">
+                    <span>Surface Runoff Leaks</span>
+                    <strong style="color: var(--green-soft);">Zero Detected</strong>
+                  </div>
+                  <div class="zone-stat-row">
+                    <span>Wildlife Buffer Flora</span>
+                    <strong>Protected</strong>
+                  </div>
+                  <div class="zone-stat-row">
+                    <span>Inspection Frequency</span>
+                    <span style="color: var(--cyan-neon);">Automated 6x Daily</span>
+                  </div>
+                </div>
+
+                <div class="nature-zone-card">
+                  <div class="zone-header">
+                    <h4 class="zone-title">North Forestry & Watershed</h4>
+                    <span class="zone-health-pill">99% Purity</span>
+                  </div>
+                  <div class="zone-stat-row">
+                    <span>Aquatic Species Disruption</span>
+                    <strong style="color: var(--green-soft);">Nominal (None)</strong>
+                  </div>
+                  <div class="zone-stat-row">
+                    <span>Rainwater Cistern Interlock</span>
+                    <strong>100% Recirculated</strong>
+                  </div>
+                  <div class="zone-stat-row">
+                    <span>Monitoring Node</span>
+                    <span style="color: var(--cyan-neon);">Autonomous Sensor 08</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- 11. Eco Intelligence Panel -->
+            <div class="eco-card">
+              <div class="eco-card-header">
+                <div class="eco-card-title-group">
+                  <div class="highlight-icon blue" style="width: 32px; height: 32px; font-size: 1rem;">11</div>
+                  <h3 class="eco-card-title">Eco Intelligence Panel</h3>
+                </div>
+                <span class="eco-card-badge">ANALYTICS ENGINE</span>
+              </div>
+
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 14px;">
+                Transparent civic analytics and waste stream composition calculated directly from MongoDB documents:
+              </p>
+
+              <!-- Category breakdown bars -->
+              <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px;" id="wasteCompositionBars">
+                
+                <div>
+                  <div style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-bottom: 4px;">
+                    <span>Plastic & Dry Recyclable Packaging</span>
+                    <strong style="color: var(--cyan-neon);">38%</strong>
+                  </div>
+                  <div class="meter-bar"><div class="meter-fill" style="width: 38%; background: var(--primary-blue);"></div></div>
+                </div>
+
+                <div>
+                  <div style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-bottom: 4px;">
+                    <span>Organic & Food Scraps</span>
+                    <strong style="color: var(--green-soft);">29%</strong>
+                  </div>
+                  <div class="meter-bar"><div class="meter-fill" style="width: 29%; background: var(--sustainability-green);"></div></div>
+                </div>
+
+                <div>
+                  <div style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-bottom: 4px;">
+                    <span>Overflowing Public Receptacles</span>
+                    <strong style="color: #fbbf24;">18%</strong>
+                  </div>
+                  <div class="meter-bar"><div class="meter-fill" style="width: 18%; background: #fbbf24;"></div></div>
+                </div>
+
+                <div>
+                  <div style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-bottom: 4px;">
+                    <span>Hazardous & Electronic Waste</span>
+                    <strong style="color: #f87171;">15%</strong>
+                  </div>
+                  <div class="meter-bar"><div class="meter-fill" style="width: 15%; background: #ef4444;"></div></div>
+                </div>
+
+              </div>
+
+              <!-- Transparency disclosure box -->
+              <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid var(--green-border); border-radius: var(--radius-sm); padding: 14px;">
+                <div style="display: flex; align-items: center; gap: 8px; font-size: 0.85rem; font-weight: 700; color: var(--green-soft); margin-bottom: 4px;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                  <span>Deterministic Civic Intelligence Disclosure</span>
+                </div>
+                <p style="font-size: 0.78rem; color: var(--text-muted); line-height: 1.5;">
+                  EcoPulse prioritizes and routes waste using auditable rules, reproducible priority formulas, and real-time MongoDB queries. No synthetic black-box models or untrusted cloud predictions are used.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        <!-- ==================== TAB 5: UNDERGROUND TRANSIT & WASTE GRID ==================== -->
+        <div class="ecopulse-tab-pane" id="pane-underground">
+          
+          <!-- Surface Pollution Reduction & Eco-Friendly Offsets Strip (Focus 3) -->
+          <div class="surface-offset-strip">
+            <div class="offset-item">
+              <div class="offset-icon">0</div>
+              <div>
+                <div class="offset-title">Surface Garbage Trucks</div>
+                <div class="offset-val" style="color: var(--green-soft);">Zero (100% Subterranean)</div>
+              </div>
+            </div>
+
+            <div class="offset-item">
+              <div class="offset-icon" style="color: var(--cyan-neon); background: rgba(0, 180, 216, 0.15);">-34dB</div>
+              <div>
+                <div class="offset-title">Surface Noise Reduction</div>
+                <div class="offset-val" style="color: var(--cyan-neon);">-34 dB (Sub-surface Loops)</div>
+              </div>
+            </div>
+
+            <div class="offset-item">
+              <div class="offset-icon" style="color: var(--accent-nude); background: rgba(224, 169, 109, 0.15);">45k</div>
+              <div>
+                <div class="offset-title">Reclaimed Greenery</div>
+                <div class="offset-val" style="color: var(--accent-nude);">45,000 m² Pedestrian Parks</div>
+              </div>
+            </div>
+
+            <div class="offset-item">
+              <div class="offset-icon">100%</div>
+              <div>
+                <div class="offset-title">Circular Water & Greywater</div>
+                <div class="offset-val" style="color: var(--green-soft);">100% Bio-Recirculated</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 24px; margin-bottom: 24px;">
+            
+            <!-- 1. Underground Transportation Console (Focus 1) -->
+            <div class="eco-card">
+              <div class="eco-card-header">
+                <div class="eco-card-title-group">
+                  <div class="highlight-icon blue" style="width: 32px; height: 32px; font-size: 1rem;">🚇</div>
+                  <h3 class="eco-card-title">Underground Transportation Network</h3>
+                </div>
+                <span class="eco-card-badge">MAGLEV PODS & AS/RS</span>
+              </div>
+
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px;">
+                High-speed electric subterranean transit corridors and automated automated logistics pods moving passengers and freight rapidly without surface noise or traffic.
+              </p>
+
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                
+                <!-- Line 01: Passenger Transit Pod Loop -->
+                <div class="transit-line-card">
+                  <div class="transit-line-header">
+                    <div>
+                      <h4 class="transit-line-title">Line 01: Subterranean Passenger Transit Pod Loop</h4>
+                      <span style="font-size: 0.78rem; color: var(--text-dim);">High-Speed Maglev Electric Pods • Dedicated Tube Grid</span>
+                    </div>
+                    <span class="transit-line-badge" id="line1Status">OPERATIONAL</span>
+                  </div>
+
+                  <div class="transit-metrics-row">
+                    <div class="transit-metric-mini">
+                      <div class="transit-metric-mini-label">Cruise Speed</div>
+                      <div class="transit-metric-mini-val" style="color: var(--cyan-neon);" id="line1Speed">120 km/h</div>
+                    </div>
+                    <div class="transit-metric-mini">
+                      <div class="transit-metric-mini-label">Headway Interval</div>
+                      <div class="transit-metric-mini-val" style="color: var(--green-soft);" id="line1Headway">90 sec</div>
+                    </div>
+                    <div class="transit-metric-mini">
+                      <div class="transit-metric-mini-label">Active Pods in Loop</div>
+                      <div class="transit-metric-mini-val" id="line1Pods">32 Active</div>
+                    </div>
+                    <div class="transit-metric-mini">
+                      <div class="transit-metric-mini-label">Surface Congestion Offset</div>
+                      <div class="transit-metric-mini-val" style="color: #fbbf24;">-78.5%</div>
+                    </div>
+                  </div>
+
+                  <div style="font-size: 0.78rem; color: var(--text-dim);">
+                    Route: Central Civic Plaza ➔ Market Hub ➔ Metro East ➔ Eco-Park Sanctuary
+                  </div>
+                </div>
+
+                <!-- Line 02: Automated Goods Storage & Freight AS/RS -->
+                <div class="transit-line-card">
+                  <div class="transit-line-header">
+                    <div>
+                      <h4 class="transit-line-title">Line 02: Automated Goods Storage & Cargo AS/RS</h4>
+                      <span style="font-size: 0.78rem; color: var(--text-dim);">Robotic Sub-Surface E-Commerce & Heavy Cargo Freight</span>
+                    </div>
+                    <span class="transit-line-badge" style="background: rgba(16, 185, 129, 0.15); border-color: var(--green-border); color: var(--green-soft);" id="line2Status">AUTOMATED AS/RS</span>
+                  </div>
+
+                  <div class="transit-metrics-row">
+                    <div class="transit-metric-mini">
+                      <div class="transit-metric-mini-label">Throughput Capacity</div>
+                      <div class="transit-metric-mini-val" style="color: var(--green-soft);" id="line2Throughput">14,200 pkg/hr</div>
+                    </div>
+                    <div class="transit-metric-mini">
+                      <div class="transit-metric-mini-label">Surface Delivery Trucks Removed</div>
+                      <div class="transit-metric-mini-val" style="color: var(--cyan-neon);">91.2% Less</div>
+                    </div>
+                    <div class="transit-metric-mini">
+                      <div class="transit-metric-mini-label">Autonomous Cargo Carriers</div>
+                      <div class="transit-metric-mini-val" id="line2Pods">48 Active</div>
+                    </div>
+                    <div class="transit-metric-mini">
+                      <div class="transit-metric-mini-label">Retrieval Speed Avg</div>
+                      <div class="transit-metric-mini-val" style="color: var(--accent-nude);">4.2 mins</div>
+                    </div>
+                  </div>
+
+                  <div style="font-size: 0.78rem; color: var(--text-dim);">
+                    Integration: Sub-surface logistics pods deliver directly to building elevator shafts.
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- 2. Underground Waste Management Console (Focus 2) -->
+            <div class="eco-card">
+              <div class="eco-card-header">
+                <div class="eco-card-title-group">
+                  <div class="highlight-icon green" style="width: 32px; height: 32px; font-size: 1rem;">♻️</div>
+                  <h3 class="eco-card-title">Underground Waste Management Network</h3>
+                </div>
+                <span class="eco-card-badge green">PNEUMATIC TUBES & SILOS</span>
+              </div>
+
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px;">
+                Pneumatic automated waste tubes suck waste from sidewalk drop-boxes into subterranean compactor silos, where autonomous waste pods haul containers to recycling centers with zero surface trucks and zero odor.
+              </p>
+
+              <!-- Pneumatic Tube Grid Metrics -->
+              <div class="pneumatic-waste-card">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                  <div>
+                    <h4 style="font-size: 1rem; color: #fff;">Automated Pneumatic Vacuum Duct Grid</h4>
+                    <span style="font-size: 0.75rem; color: var(--green-soft);">Sub-Surface Pneumatic Airflow Conduits</span>
+                  </div>
+                  <span class="status-pill resolved" id="pneumaticStatus">Active Evacuation</span>
+                </div>
+
+                <div class="transit-metrics-row">
+                  <div class="transit-metric-mini">
+                    <div class="transit-metric-mini-label">Vacuum Suction Velocity</div>
+                    <div class="transit-metric-mini-val" style="color: var(--green-soft);" id="vacuumAirspeed">75 km/h</div>
+                  </div>
+                  <div class="transit-metric-mini">
+                    <div class="transit-metric-mini-label">Pressure Differential</div>
+                    <div class="transit-metric-mini-val" style="color: var(--cyan-neon);" id="vacuumPressure">78.4 kPa</div>
+                  </div>
+                  <div class="transit-metric-mini">
+                    <div class="transit-metric-mini-label">Compaction Ratio</div>
+                    <div class="transit-metric-mini-val" style="color: var(--accent-nude);">4:1 High-Density</div>
+                  </div>
+                  <div class="transit-metric-mini">
+                    <div class="transit-metric-mini-label">Silo Storage Occupancy</div>
+                    <div class="transit-metric-mini-val" id="siloOccupancy">46.2 / 120 T</div>
+                  </div>
+                </div>
+
+                <!-- Animated Pneumatic Tube Simulation Track -->
+                <div class="tube-animation-track">
+                  <div class="tube-track-label">
+                    <span>Street Drop Inlet</span>
+                    <span>Subterranean Duct Conduit</span>
+                    <span>Sealed Silo Compactor</span>
+                  </div>
+                  <div class="tube-pod-carrier" id="tubeCarrierPod">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px; color: #020617;"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                  </div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 14px;">
+                  <span style="font-size: 0.8rem; color: var(--text-dim);" id="pneumaticLogText">Conduit 4B Ready: Zero odor, zero street garbage trucks</span>
+                  <button type="button" class="btn-evacuate-pulse" id="triggerPneumaticPulseBtn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                    <span>Trigger Pneumatic Pulse</span>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- 4. AI-Driven Route & Dispatch Optimization Console (Focus 4) -->
+          <div class="eco-card">
+            <div class="eco-card-header">
+              <div class="eco-card-title-group">
+                <div class="highlight-icon blue" style="width: 32px; height: 32px; font-size: 1rem;">🧠</div>
+                <h3 class="eco-card-title">AI Integration: Subterranean Tube Dispatch Optimizer</h3>
+              </div>
+              <span class="eco-card-badge">OPTIMIZATION ENGINE</span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px;">
+              
+              <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--blue-border); border-radius: var(--radius-md); padding: 18px;">
+                <h4 style="font-size: 0.95rem; color: var(--cyan-neon); margin-bottom: 6px;">Dynamic Tube Routing Vector</h4>
+                <p style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 12px;">
+                  AI engine calculates least-resistance pneumatic tube paths and subterranean pod loop vectors for active incidents:
+                </p>
+                <div style="font-family: monospace; font-size: 0.85rem; color: var(--green-soft); background: rgba(0,0,0,0.4); padding: 8px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-light);" id="aiRecommendedTubeRoute">
+                  Route Vector: Conduit 4B (Sub-surface High-Speed Vector)
+                </div>
+                <div style="font-size: 0.75rem; color: var(--text-dim); margin-top: 6px;">
+                  Energy efficiency gain: +31.8% compared to surface routing
+                </div>
+              </div>
+
+              <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--green-border); border-radius: var(--radius-md); padding: 18px;">
+                <h4 style="font-size: 0.95rem; color: var(--green-soft); margin-bottom: 6px;">Predictive Hotspot Pre-Positioning</h4>
+                <p style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 12px;">
+                  Pre-positions subterranean collection pods beneath dense commercial hubs before bin sensors reach 100% capacity:
+                </p>
+                <div style="font-size: 0.85rem; color: #fff; background: rgba(0,0,0,0.4); padding: 8px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-light);" id="aiHotspotPreposition">
+                  Status: 2 Autonomous Pods on Standby at Main Market Road Sub-Hub
+                </div>
+                <div style="font-size: 0.75rem; color: var(--text-dim); margin-top: 6px;">
+                  Zero surface disruption during peak shopping and festival rushes
+                </div>
+              </div>
+
+              <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--nude-border); border-radius: var(--radius-md); padding: 18px;">
+                <h4 style="font-size: 0.95rem; color: var(--accent-nude); margin-bottom: 6px;">Surface Air Quality Interlock</h4>
+                <p style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 12px;">
+                  Correlates subterranean waste velocity with city-wide air telemetry sensors to guarantee zero fugitive odor or particulate escape:
+                </p>
+                <div style="font-size: 0.85rem; color: var(--green-soft); background: rgba(0,0,0,0.4); padding: 8px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-light);">
+                  Bio-Filter Exfiltration: 100% Sealed HEPA-Carbon Purified
+                </div>
+                <div style="font-size: 0.75rem; color: var(--text-dim); margin-top: 6px;">
+                  Zero diesel particulate matter emitted into pedestrian breathing zone
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ==================== TAB 6: CONNECTED INFRASTRUCTURE (Focus 5) ==================== -->
+        <div class="ecopulse-tab-pane" id="pane-connected">
+          
+          <div class="eco-card">
+            <div class="eco-card-header">
+              <div>
+                <div class="eco-card-title-group">
+                  <div class="highlight-icon green" style="width: 32px; height: 32px; font-size: 1rem;">🌐</div>
+                  <h3 class="eco-card-title">Connected Infrastructure: Unified Smart-City Digital Twin</h3>
+                </div>
+                <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">
+                  All 5 civic layers—Surface Sensing, Cloud Backend, Underground Transit, Pneumatic Waste, and Nature Reserves—operating as a unified, real-time operating ecosystem.
+                </p>
+              </div>
+
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <span class="status-pill resolved" id="ecosystemHealthPill">ECOSYSTEM SYNC: 99.4%</span>
+                <button type="button" class="btn btn-sm btn-outline" id="syncEcosystemBtn">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px;"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg>
+                  Pulse Sync
+                </button>
+              </div>
+            </div>
+
+            <!-- 5-Layer Connected Infrastructure Flow -->
+            <div class="connected-layers-container" id="connectedLayersList">
+              
+              <!-- Layer 1 -->
+              <div class="connected-layer-card">
+                <div class="layer-level-badge">L1</div>
+                <div class="layer-content">
+                  <div class="layer-name">Surface IoT Telemetry & Citizen Reporting</div>
+                  <div class="layer-subsystems">Smart Optical Bins • Sidewalk Sensors • Citizen Mobile Reporting • Environmental Telemetry</div>
+                </div>
+                <div class="layer-status-pill">
+                  <span class="pulse-node green" style="width: 6px; height: 6px;"></span>
+                  <span>ONLINE • 8 ms</span>
+                </div>
+                <div class="layer-flow-indicator" aria-hidden="true"></div>
+              </div>
+
+              <!-- Layer 2 -->
+              <div class="connected-layer-card green-layer">
+                <div class="layer-level-badge">L2</div>
+                <div class="layer-content">
+                  <div class="layer-name">Cloudetech Cloud OS Brain</div>
+                  <div class="layer-subsystems">Node.js Express API Engine • MongoDB Atlas Database • Deterministic Rule Priority Engine • Real-Time Stats</div>
+                </div>
+                <div class="layer-status-pill">
+                  <span class="pulse-node green" style="width: 6px; height: 6px;"></span>
+                  <span>ONLINE • 12 ms</span>
+                </div>
+                <div class="layer-flow-indicator" aria-hidden="true"></div>
+              </div>
+
+              <!-- Layer 3 -->
+              <div class="connected-layer-card">
+                <div class="layer-level-badge">L3</div>
+                <div class="layer-content">
+                  <div class="layer-name">Underground High-Speed Transport & Freight Hyper-Loop</div>
+                  <div class="layer-subsystems">Subterranean Maglev Passenger Pods • Automated Cargo AS/RS • Sub-Surface Elevators • Zero Surface Trucks</div>
+                </div>
+                <div class="layer-status-pill">
+                  <span class="pulse-node green" style="width: 6px; height: 6px;"></span>
+                  <span>ONLINE • 15 ms</span>
+                </div>
+                <div class="layer-flow-indicator" aria-hidden="true"></div>
+              </div>
+
+              <!-- Layer 4 -->
+              <div class="connected-layer-card green-layer">
+                <div class="layer-level-badge">L4</div>
+                <div class="layer-content">
+                  <div class="layer-name">Subterranean Pneumatic Waste & Compactor Silos</div>
+                  <div class="layer-subsystems">Automated Vacuum Conduits (75 km/h) • 4:1 Silo Compactor Units • Subterranean Waste Haulage Pods</div>
+                </div>
+                <div class="layer-status-pill">
+                  <span class="pulse-node green" style="width: 6px; height: 6px;"></span>
+                  <span>ONLINE • 10 ms</span>
+                </div>
+                <div class="layer-flow-indicator" aria-hidden="true"></div>
+              </div>
+
+              <!-- Layer 5 -->
+              <div class="connected-layer-card">
+                <div class="layer-level-badge">L5</div>
+                <div class="layer-content">
+                  <div class="layer-name">Regenerative Nature & Green Biosphere Protection</div>
+                  <div class="layer-subsystems">Bio-Filtration Aquifers • Stormwater Runoff Cisterns • Urban Wildlife Biophilic Corridors • 100% Circular Water</div>
+                </div>
+                <div class="layer-status-pill">
+                  <span class="pulse-node green" style="width: 6px; height: 6px;"></span>
+                  <span>ONLINE • 6 ms</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Interlock Synchronization Banner -->
+            <div style="margin-top: 24px; padding: 16px 20px; background: rgba(0, 180, 216, 0.08); border: 1px solid var(--blue-border); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px;">
+              <div>
+                <strong style="color: var(--cyan-neon); font-size: 0.95rem;">Closed-Loop Cyber-Physical Guarantee</strong>
+                <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 2px;">
+                  When a waste report or transit surge is detected at Layer 1, Layer 2 processes priority in milliseconds, Layer 3 reroutes underground pods, Layer 4 triggers pneumatic evacuation, and Layer 5 protects the green biosphere.
+                </p>
+              </div>
+              <span style="font-family: monospace; font-size: 0.85rem; color: var(--green-soft); background: rgba(0,0,0,0.4); padding: 6px 14px; border-radius: var(--radius-full); border: 1px solid var(--green-border);">
+                Sync Loop: Sub-Second Actuation
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Report Details Modal -->
+    <div class="modal-backdrop" id="reportDetailModal" aria-hidden="true" role="dialog">
+      <div class="join-modal-dialog" style="max-width: 620px;">
+        <div class="modal-header">
+          <div class="modal-header-info">
+            <h3 id="modalReportTitle">Report Details</h3>
+            <span class="modal-badge" id="modalReportIdBadge">EP-XXXX</span>
+          </div>
+          <button class="modal-close-btn" id="closeReportDetailModal" aria-label="Close modal">&times;</button>
+        </div>
+        <div id="modalReportBody" style="padding: 24px 0 10px;">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notification Element -->
+    <div class="eco-toast" id="ecoToast">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 20px; height: 20px; color: var(--green-soft);" id="toastIcon"><polyline points="20 6 9 17 4 12"/></svg>
+      <span id="toastMessage">Database Updated</span>
+    </div>
+
+    <!-- 7. Join / Call to Action -->
+    <section class="section join-section" id="join">
+      <div class="container">
+        
+        <div class="join-banner">
+          <div class="join-glow"></div>
+          <div class="join-content">
+            <span class="join-badge">INNOVATE WITH US</span>
+            <h2 class="join-title">Build the Future Together</h2>
+            <p class="join-text">
+              Whether you are an engineer, cloud architect, urban planner, student, or sustainability advocate—join our collaborative vision in shaping the cloud-native, intelligent cities of tomorrow.
+            </p>
+            <div class="join-action-group">
+              <button class="btn btn-primary btn-lg" id="openJoinModal">
+                <span>Join the Vision</span>
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </button>
+              <a href="#about" class="btn btn-glass btn-lg">Learn How It Works</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <div class="footer-brand">
+            <img src="logo2.png" alt="Smart City Project Logo" class="footer-logo" width="56" height="56" onerror="this.onerror=null;this.src='cloudetech_round2/logo2.png';">
+            <div>
+              <span class="footer-brand-title">CLOUD CITY</span>
+              <span class="footer-brand-subtitle">Intelligent Cloud-Native City</span>
+            </div>
+          </div>
+          <p class="footer-mission">
+            A next-generation smart metropolis where cloud computing, AI, serverless scalability, and sustainable subterranean engineering work in unison.
+          </p>
+          <div class="competition-tag">
+            <span>COMPETITION SHOWCASE ENTRY</span>
+          </div>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-heading">Subterranean Systems</h4>
+          <ul class="footer-links">
+            <li><a href="#underground"><span class="dot blue"></span> Intelligent Underground Utility Network</a></li>
+            <li><a href="#underground"><span class="dot green"></span> Automated Goods Storage</a></li>
+            <li><a href="#underground"><span class="dot blue"></span> Underground Transport & Storage</a></li>
+            <li><a href="#underground"><span class="dot green"></span> Rainwater Harvesting & Recycling</a></li>
+            <li><a href="#ecopulse"><span class="dot green"></span> EcoPulse Smart Waste OS</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-heading">Architecture & Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home & Blueprint</a></li>
+            <li><a href="#about">How Cloud & AI Connect</a></li>
+            <li><a href="#concepts">Five Core Concepts</a></li>
+            <li><a href="#vision">Future City Vision</a></li>
+            <li><a href="#join">Join the Initiative</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 8. Footer Concepts of Logo Section -->
+      <div class="footer-logo-concepts-section">
+        <div class="logo-concepts-header">
+          <span class="logo-concepts-title-badge">OFFICIAL EMBLEM BREAKDOWN</span>
+          <h4 class="logo-concepts-title">concepts of Logo :-</h4>
+          <p class="logo-concepts-subtitle">
+            Visual decoding of the 5 foundational engineering principles integrated into our competition emblem:
+          </p>
+        </div>
+
+        <div class="logo-concepts-cards">
+          <!-- 1. Circuit Cloud Icon -->
+          <div class="logo-concept-card">
+            <div class="concept-icon-badge blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                <circle cx="12" cy="13" r="1.5"/>
+                <path d="M12 14.5v3"/>
+              </svg>
+            </div>
+            <div class="concept-card-content">
+              <div class="concept-name-row">
+                <span class="concept-bullet-symbol">❖</span>
+                <h5 class="concept-name">Circuit Cloud Icon</h5>
+              </div>
+              <p class="concept-description">
+                Represents distributed cloud-native architecture, container orchestration, and continuous data streams connecting the sky and ground.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2. Geometric Hexagon Node -->
+          <div class="logo-concept-card">
+            <div class="concept-icon-badge blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 21.5 7.5 21.5 18.5 12 24 2.5 18.5 2.5 7.5 12 2"/>
+                <circle cx="12" cy="13" r="2.5"/>
+              </svg>
+            </div>
+            <div class="concept-card-content">
+              <div class="concept-name-row">
+                <span class="concept-bullet-symbol">❖</span>
+                <h5 class="concept-name">Geometric Hexagon Node</h5>
+              </div>
+              <p class="concept-description">
+                Signifies mathematical stability, decentralized microservice nodes, and cryptographic resilience across physical and cyber grids.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3. Dynamic Builder Arc -->
+          <div class="logo-concept-card">
+            <div class="concept-icon-badge warm">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 21h18M5 21V7l8-4v18M13 11l6-3v13"/>
+                <path d="M12 3a9 9 0 0 1 9 9"/>
+              </svg>
+            </div>
+            <div class="concept-card-content">
+              <div class="concept-name-row">
+                <span class="concept-bullet-symbol">❖</span>
+                <h5 class="concept-name">Dynamic Builder Arc</h5>
+              </div>
+              <p class="concept-description">
+                Symbolizes visionary civic engineering, soaring green skyscrapers, solar canopies, and progressive metropolitan expansion.
+              </p>
+            </div>
+          </div>
+
+          <!-- 4. Infinity Code Loop -->
+          <div class="logo-concept-card">
+            <div class="concept-icon-badge green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M8 12c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4c0 1.2-.5 2.2-1.3 3"/>
+                <path d="M16 12c2.2 0 4 1.8 4 4s-1.8 4-4 4-4-1.8-4-4c0-1.2.5-2.2 1.3-3"/>
+                <path d="m9.5 13.5 5-5"/>
+              </svg>
+            </div>
+            <div class="concept-card-content">
+              <div class="concept-name-row">
+                <span class="concept-bullet-symbol">❖</span>
+                <h5 class="concept-name">Infinity Code Loop</h5>
+              </div>
+              <p class="concept-description">
+                Embodies continuous CI/CD integration, zero-downtime automated workflows, and 100% circular zero-waste ecological sustainability.
+              </p>
+            </div>
+          </div>
+
+          <!-- 5. Neural Network Mesh -->
+          <div class="logo-concept-card">
+            <div class="concept-icon-badge blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="5" cy="6" r="2.5"/><circle cx="19" cy="6" r="2.5"/><circle cx="12" cy="19" r="2.5"/><circle cx="12" cy="11" r="2.5"/>
+                <line x1="7" y1="7.5" x2="10.5" y2="9.8"/><line x1="17" y1="7.5" x2="13.5" y2="9.8"/><line x1="12" y1="13.5" x2="12" y2="16.5"/>
+              </svg>
+            </div>
+            <div class="concept-card-content">
+              <div class="concept-name-row">
+                <span class="concept-bullet-symbol">❖</span>
+                <h5 class="concept-name">Neural Network Mesh</h5>
+              </div>
+              <p class="concept-description">
+                Denotes generative cloud AI, edge sensor telemetry, and intelligent real-time adaptation for autonomous municipal operations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          &copy; <span id="currentYear">2026</span> Intelligent Cloud-Native City Project. Built for competition excellence.
+        </div>
+        <div class="footer-status">
+          <span class="status-indicator"></span>
+          <span>System Status: 100% Operational • Cloud Edge Synced</span>
+        </div>
+        <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m18 15-6-6-6 6"/></svg>
+        </button>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Official High-Res Poster -->
+  <div class="modal-backdrop" id="posterModal" aria-hidden="true" role="dialog" aria-labelledby="posterModalTitle">
+    <div class="poster-modal-dialog">
+      <div class="modal-header">
+        <div class="modal-header-info">
+          <h3 id="posterModalTitle">Building the Intelligent Cloud-Native City</h3>
+          <span class="modal-badge">High-Resolution Official Poster</span>
+        </div>
+        <div class="modal-header-controls">
+          <button class="modal-ctrl-btn" id="zoomInBtn" title="Zoom In">+</button>
+          <button class="modal-ctrl-btn" id="zoomOutBtn" title="Zoom Out">-</button>
+          <button class="modal-ctrl-btn" id="zoomResetBtn" title="Reset Zoom">100%</button>
+          <button class="modal-close-btn" id="closePosterModal" aria-label="Close modal">&times;</button>
+        </div>
+      </div>
+      <div class="modal-poster-body" id="posterZoomContainer">
+        <img src="cloudeposter.png" alt="Full High Resolution Poster" class="modal-poster-img" id="modalPosterImg" onerror="this.onerror=null;this.src='cloudetech_round2/cloudeposter.png';">
+      </div>
+      <div class="modal-footer-caption">
+        <span>Use buttons above or click and drag to inspect details. Press ESC to close.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Join Modal -->
+  <div class="modal-backdrop" id="joinModal" aria-hidden="true" role="dialog" aria-labelledby="joinModalTitle">
+    <div class="join-modal-dialog">
+      <div class="modal-header">
+        <div class="modal-header-info">
+          <h3 id="joinModalTitle">Join the Cloud City Vision</h3>
+          <span class="modal-badge">Collaborative Network</span>
+        </div>
+        <button class="modal-close-btn" id="closeJoinModal" aria-label="Close modal">&times;</button>
+      </div>
+      
+      <form class="join-form" id="joinForm">
+        <p class="form-instructions">
+          Be part of the community building autonomous, cloud-native sustainable cities. Register for updates, blueprint whitepapers, and hackathon challenges.
+        </p>
+        
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" required placeholder="Alex Rivera">
+        </div>
+
+        <div class="form-group">
+          <label for="emailAddress">Email Address</label>
+          <input type="email" id="emailAddress" name="emailAddress" required placeholder="alex@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="interestRole">Your Field / Discipline</label>
+          <select id="interestRole" name="interestRole" required>
+            <option value="" disabled selected>Select your area of expertise</option>
+            <option value="cloud">Cloud-Native & Distributed Systems</option>
+            <option value="ai">AI / Machine Learning Engineer</option>
+            <option value="urban">Urban Planning & Architecture</option>
+            <option value="sustainability">Renewable Energy & Sustainability</option>
+            <option value="devops">DevOps & Edge Infrastructure</option>
+            <option value="student">Student / Academic Researcher</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="userNotes">What excites you about the Intelligent Cloud-Native City?</label>
+          <textarea id="userNotes" name="userNotes" rows="3" placeholder="Tell us how you would like to collaborate or contribute..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">
+          <span>Submit Registration</span>
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+
+        <div class="form-success-message" id="formSuccessMessage">
+          <div class="success-icon">✓</div>
+          <h4>Thank you for joining the vision!</h4>
+          <p>Your badge has been reserved. You will receive the technical architectural whitepaper shortly.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    // Explicit environment configuration bridge for EcoPulse
+    if (!window.VITE_API_URL) {
+      if (window.location.protocol === 'file:' || !window.location.hostname || window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        window.VITE_API_URL = 'http://localhost:5000';
+      }
+    }
+  </script>
+  <script src="api.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
